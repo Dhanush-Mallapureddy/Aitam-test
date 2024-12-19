@@ -1,0 +1,56 @@
+h1{
+    color: red;
+    text-transform: uppercase;
+    display: inline;
+    border-radius: 8px;
+    text-decoration: underline dotted;
+}
+h1:hover{
+    color: blue;
+    text-transform: lowercase;
+    background-color: aqua;
+    display: inline;
+    background-size: contain;
+    text-decoration: underline dashed;
+}
+p1:hover{
+    color: rgba(0,255,40,1);
+    text-transform: uppercase;
+    font-size: 3em;
+    display: inline;
+    
+}
+p1{
+    background: linear-gradient(to left,skyblue, blue);
+    text-decoration: underline dotted;
+    text-transform: uppercase;
+    
+    font-size: 3em;
+
+}
+p2{
+    background: linear-gradient(to left,skyblue, blue);
+    font-size: 2em;
+}
+button{
+display:flex;
+justify-content: center;
+gap: 20px;
+margin-top: 50px;
+color: aqua;
+}
+.btn{
+    padding: 15px 30px;
+    background: none;
+    font-size: 80px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:all 0.3 ease-in-out
+}
+.hover:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+}
